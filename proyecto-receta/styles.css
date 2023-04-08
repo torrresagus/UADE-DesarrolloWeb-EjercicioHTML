@@ -1,0 +1,227 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+}
+
+h1, h2, h3 {
+    color: #583e23;
+    text-align: left;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+ul ol {
+    margin-left: 30px;
+    margin-bottom: 0;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 0 auto 20px;
+}
+
+th, td {
+    border: 1px solid #583e23;
+    padding: 8px;
+    text-align: center;
+}
+
+form {
+    width: 80%;
+    margin: 0 auto 20px;
+}
+
+label, input, textarea {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"], textarea {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #583e23;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+}
+
+img {
+    max-width: 40%;
+    height: auto;
+    align-content: left;
+    display: block;
+    margin: 0 auto;
+  }
+.hero-banner {
+    background-image: url(./img/brownies-de-chocolate.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px #000;
+    margin-top: 50px;
+}
+  
+.hero-banner h1 {
+    font-size: 5rem;
+    font-family: Impact;
+    margin-bottom: 1rem;
+    color: #fff;
+}
+  
+.hero-banner h2 {
+    font-size: 3rem;
+    font-family: Impact;
+    margin-bottom: 1rem;
+    color: #fff;   
+}
+
+.paragraph {
+    text-align: center;
+    margin-top: 3em;
+    width: 65%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+}
+  
+.paragraph p {
+    font-size: 1.5em;
+    line-height: 1.5em;
+    color: #666;
+    margin-bottom: 1.5em;
+}
+
+.container {
+    display: flex;
+}
+
+.infoMas h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.infoMas ul {
+    padding-bottom: 0;
+    margin-left: 30px;
+    font-size: 2rem;    
+}
+
+.infoMas li {   
+    margin-bottom: 10px;
+}
+
+.image img {
+    height: 400px;
+    width: auto;
+    margin: 0 auto;
+    display: block;
+    margin-top: 110px;
+}
+
+.image {
+    flex: 1;
+  }
+ 
+.preparación {
+    max-width: 70%;
+    margin: 0 auto;
+    text-align: left; 
+  }
+  
+.preparación h2 {
+    margin-top: 0;
+}
+  
+.preparación ol {
+    font-size: 1.5em;
+    margin: 0; 
+    padding-left: 5%;
+}
+
+.informacionNutri {
+    max-width: 95%; 
+    margin: 0 auto; 
+    margin-top: 25px;
+    text-align: center;
+}  
+
+.informacionNutri h3 {
+    text-align: center;
+    margin-top: 0;
+}
+hr {
+    border: none;
+    border-top: 4px solid black; 
+    max-width: 50%;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.comentarios {
+    max-width: 70%;
+    margin: 0 auto;
+    text-align: left;
+}
+  
+.comentarios h3 {
+    margin-top: 0; 
+}
+
+.videoYT {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+.bg-fffaed  {
+    background-color: #fffaed;
+}
+
+.link {
+    color: #000; /* color original del texto */
+    text-decoration: none; /* eliminar subrayado */
+}
+  
+.link:hover {
+    color: #583e23; /* color más claro al pasar el mouse por encima */
+}
+  
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand img {
+    margin-right: 10px;
+}
+
+.navbar-brand span {
+    display: inline-block;
+}
+.navbar-brand img {
+    width: 50%;
+    max-height: 70px;
+}
+
+.ComentarioInputContainer {
+    max-width: 60%;
+    margin: 0 auto;
+    text-align: left;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
